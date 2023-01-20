@@ -1,0 +1,69 @@
+Body{
+    background:url(/2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:black;
+}
+#acceder{
+    font-size: larger;
+}
+.registrar{
+    position: relative;
+    top: 50%;
+    font-size: 14px;
+    right: 9%;
+}
+.user{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    
+    
+}
+#tit1{
+    position: relative;
+    top: 0px;
+    left: 28%;
+    color: black;
+    font-size: 50px;
+}
+.f1{
+    background-color: rgba(204, 223, 213, 0.1);
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    left: 39%;
+    top: 30%;
+    border-style: solid;
+    
+    
+}
+
+
+
+.asd{
+    position: relative;
+    left: 20%;
+    top: 0%;
+}
+#reg{
+    position: relative;
+    top: -10px;
+    left: 6px;
+    display:block;
+ 
+    border-color: black;
+    border-radius: 5px;
+    width: 65px;
+   padding: 5px 10px;
+   text-decoration:none;
+   color:black;
+   border-style:solid;
+   background-color:white;
+    
+
+}
+
+#imagenUsuario{
+    border: solid;
+}

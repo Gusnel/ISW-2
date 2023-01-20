@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Casa Yeti</title>
+    <link rel="stylesheet" href="/principal_Autenticar.css">
+    <script src="scripts/iko.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="/logo yeti.webp">
+    
+</head>
+<body>
+    
+    <h1 id="tit1" style="color:white">Institución cultural Casa Yeti</h1>
+
+    <div class="user">
+    <img id="imagenUsuario" src="/user 2.png" alt=""><br><br>
+    <a class="registrar" id="reg" href="/Registrarse" >Registrarse
+
+
+    </a>
+    <br><br><br><br>
+</div>
+    
+    
+
+
+<div class="f1"><form name="f1" th:action="@{/Acceder}" method="post" >
+    <h2 class="asd">Autenticarse</h2>
+    <input type="text" placeholder="Usuario" name="user" class="asd" required title="El campo no puede estar vacío"><br><br>
+    <input type="password" placeholder="Contraseña" name="pass" class="asd"required title="El campo no puede estar vacío"><br><br>
+    <button type="submit" value="Acceder" class="asd"> acceder</button><br><br><br><br>
+</div>
+</form >
+<form th:action="@{/est}">
+    <button type="submit" value="entrar como estudiante" class="asd"> entrar como estudiante</button>
+</form>
+
+
+   
+</body>
+</html>
